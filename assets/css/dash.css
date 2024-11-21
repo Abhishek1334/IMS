@@ -1,0 +1,171 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Monospace, sans-serif;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    font-family: monospace;
+}
+
+.nav-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #333;
+}
+
+.greeting {
+    padding: 15px 20px;
+    background-color: #f0f0f0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.unified-container {
+    display: flex;
+    height: calc(100vh - 180px);
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #e0e0e0;
+    width: 350px;
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar a:hover {
+    background-color: #d0d0d0;
+}
+
+/* Product List Container Styles */
+.product-list-container {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Divider */
+.divider {
+    border-top: 2px solid #d0d0d0;
+    margin: 10px 0;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table th {
+    background-color: #f0f0f0;
+}
+
+/* Add Button */
+.add-button {
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+/* List Group Styles */
+.list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item {
+    padding: 15px;
+    margin: 5px 0;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-group-item:hover {
+    background-color: #e0e0e0;
+}
+
+/* Link Button */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: #333;
+}
